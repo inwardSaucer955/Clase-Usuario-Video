@@ -11,13 +11,18 @@ package com.mycompany.youtube;
 public class Youtube {
 
     public static void main(String[] args) {
-        Usuario usuario=new Usuario("taide");
-        Video video = new Video( "aprendiendo java ", 2400, "http;//taide.com");
-        usuario.subirVideo(video);
-        usuario.mostrarInfoUsuario();
-
+        Usuario usuario1=new Usuario("taide");
+        Video video1 = new Video( " aprendiendo java ", 2400, "http;//taide.com");
+        usuario1.subirVideo(video1);
+        usuario1.mostrarInfoUsuario();
+        System.out.println();
+        
+        Usuario usu2 = new Usuario("rene limon");
+        Comentarios comentario1 = new Comentarios (" me encanto tu video uwu", usu2 );
+        System.out.println(" el usuario: " + usu2.getNombre()+ " realizo un comentario: " + comentario1.getContenido());
+       
     }
-    
+      
  }
    
     

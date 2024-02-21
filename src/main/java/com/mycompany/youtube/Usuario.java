@@ -16,6 +16,10 @@ public class Usuario {
         this.nombre = nombre;
     }
 
+    Usuario(String me_gusta_tu_video_uwu, Usuario usuario2) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public String getNombre() {
         return nombre;
     }
